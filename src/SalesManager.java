@@ -14,8 +14,8 @@ public class SalesManager {
         }
         return max;
     }
-    public int min (){
-        int minValue = sales[0];
+    public long min (){
+        long minValue = sales[0];
         for(int i=1;i<sales.length;i++){
             if(sales[i] < minValue){
                 minValue = sales[i];
@@ -24,9 +24,9 @@ public class SalesManager {
         return minValue;
     }
 
-    public  int average() {
-        int total = 0;
-        int avg;
+    public  long average() {
+        long total = 0;
+        long avg;
         for(int i=0; i<sales.length; i++){
             total = total + sales[i];
         }
