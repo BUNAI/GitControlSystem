@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        int [] manager = {2,3,4};
+        long [] manager = {2,3,4};
 
         SalesManager salesManager;
 
